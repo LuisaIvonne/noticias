@@ -7,7 +7,7 @@ import ListadoNoticias from './components/ListadoNoticias';
 function App() {
 
   //definir la categoria y noticias
-  const [categoria, guardarCategoria] = useState('');
+  const [categoria, guardarCategoria] = useState('general');
   const [noticias, guardarNoticias] = useState([]);
 
   useEffect(() => {
